@@ -1,0 +1,5 @@
+import scala.xml.Node
+
+object XmlUtil {
+  def text(node: Node, label: String): String = (node \ label).text
+}
