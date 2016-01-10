@@ -6,6 +6,7 @@ import com.foxinmy.weixin4j.token.TokenStorager
 import org.junit.runner.RunWith
 import org.specs2.mutable.Specification
 import org.specs2.runner.JUnitRunner
+import play.api.i18n.DefaultMessagesApi
 import scala.collection.JavaConverters._
 
 /**
@@ -35,6 +36,10 @@ class ReceiveMsgTest extends Specification {
 
       wechatProxy.getAllFollowing.asScala.foreach(println)
       1 must equalTo(1)
+
+
+
+//      val new IMessageHandler/
     }
 
   }
